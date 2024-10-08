@@ -99,3 +99,27 @@ public class main {
         return true;
     }
 }
+    public class Main {
+       public static String[] todos = new String[3];
+       public static Scanner[] scanners = new Scanner(souce System.in);
+
+       public static void main(String[] args) {
+           showMainMenu();
+       }
+       public static void showTodoList() {
+           System.out.println("TODO LIST");
+           for (int i = 0; i < todos.length; i ++) {
+       }
+    }
+    public Static void showMenuEditTodoList(){
+        System.out.println("MENGEDIT TODO LIST");
+        String selectedTodo = input(info: "Nomor todo yang akan dihapus (x jika batal)");
+        if (selectedTodo.equals("x")){
+            return;
+        }
+        String newTodo = input(info: "Masukan todo yang baru (x jika batal)");
+        if (selectedTodo.equals("x")){
+            return;
+        }
+        boolean isEdit
+}
